@@ -4,7 +4,7 @@ import json
 
 def buscaFuncionarios(chapa):
 
-    url = f"http://corporativorm.ecad.org.br:8051/rmsrestdataserver/rest/FopFuncData?filter=[\"CHAPA LIKE '{chapa}%'\"]"
+    url = f"http://corporativorm.ecad.org.br:8051/rmsrestdataserver/rest/FopFuncData?filter=[\"CHAPA LIKE '{chapa}%' AND CODSITUACAO = 'A'\"]"
  
     payload = "{\r\n    \"CODIGOTOMADORTEMP\": \"1\"\r\n}"
     headers = {
