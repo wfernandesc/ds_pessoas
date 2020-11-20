@@ -1,5 +1,5 @@
 # Folders #  
 ######################  
-ds_pessoas/util/
-ds_pessoas/.vscode/
-ds_pessoas/ds_pessoas_to_mongodb.ipynb
+/util/
+/.vscode/
+/ds_pessoas_to_mongodb.ipynb
