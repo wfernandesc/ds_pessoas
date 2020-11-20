@@ -2,4 +2,5 @@
 ######################  
 util/
 .vscode/
+__pycache__/git log
 ds_pessoas_to_mongodb.ipynb
